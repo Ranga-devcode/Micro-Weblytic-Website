@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* h11 {
+  color: #ff0000;
+  font-size: 3rem;
+}
+pp {
+  color: #800080;
+  border: 1px solid #000000;
+  background-color: #ffff00;
+  padding: 1rem;
+  margin: 1rem;
+}
+.speciall {
+  color: #3039bf;
+} */
+.header {
+  padding: 0 30px;
+  background-color: #283593;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+.nav a:hover {
+  color: #ffd600;
+  font-size: 18px;
+  font-weight: bold;
+  transform: scale(1.3);
+}
+.nav li {
+  margin-left: 20px;
+}
+.nav {
+  list-style: none;
+  margin: 0;
+  padding-right: 50px;
+  display: flex;
+}
+.logo img {
+  width: 90px;
+  margin: 0;
+  padding: 0;
+}
+.wraper-intro {
+  background-color: #c5cae9;
+  padding: 60px 45px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.wraper-intro-inner {
+  max-width: 760px;
+}
+.wraper-intro h1,
+span {
+  color: #283593;
+  font-weight: normal;
+  font-size: 4rem;
+  margin: 0;
+}
+.wraper-intro p {
+  font-size: 1.18rem;
+  line-height: 1.6;
+}
+.button {
+  background-color: #283593;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  display: inline-block;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  letter-spacing: 0.2rem;
+  color: #ffd600;
+}
+.button:hover .fa-angle-right::before {
+  color: #ffd600;
+  content: "\f101";
+}
+
+.wraper-features {
+  background-color: #8c9eff;
+  padding: 60px 45px;
+}
+.wraper-features-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
+}
+/* .wraper-fetured-items {
+  position: relative;
+} */
+.wraper-fetured-items h3 {
+  color: #1a237e;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+.wraper-fetured-items p {
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+}
+.wraper-fetured-button {
+  background-color: #283593;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+.wraper-fetured-items a {
+  transition: all 0.3s ease-in-out;
+}
+
+.wraper-fetured-items a:hover {
+  color: #283593;
+  font-weight: bold;
+  background-color: #536dfe;
+  transform: scale(1);
+}
+.items:hover{
+    border-radius: 1rem;
+}
+.items {
+  width: 350px;
+  height: 300px;
+}
+.profile-items {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+/* .overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+.wraper-fetured-items:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.profile-text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+} */
+.footer {
+  text-align: center;
+  padding: 1px 0;
+  color: rgb(255, 214, 0);
+  background-color: #283593;
+  font-size: 0.9rem;
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; */
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* style the container */
+  .container {
+    margin-top: 50px;
+    position: relative;
+    border-radius: 5px;
+    background-color: #8c9eff;
+    padding: 20px 0 30px 0;
+  } 
+  
+  /* style inputs and link buttons */
+  input,
+  .btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; /* remove underline from anchors */
+  }
+  
+  input:hover,
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  /* style the submit button */
+  input[type=submit] {
+    background-color: #283593;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #283593;
+  }
+  
+  /* Two-column layout */
+  .col {
+    float: left;
+    width: 100%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* hide some text on medium and large screens */
+  .hide-md-lg {
+    display: none;
+  }
+  
+  /* bottom container */
+  .bottom-container {
+    text-align: center;
+    background-color: #c0bd1a79;
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 650px) {
+    .col {
+      width: 100%;
+      margin-top: 0;
+    }
+    /* show the hidden text on small screens */
+    .hide-md-lg {
+      display: block;
+      text-align: center;
+    }
+  }
